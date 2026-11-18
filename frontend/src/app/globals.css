@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --canvas: #FFFFFF;
+  --surface: #FFF8F8;
+  --border: #FCE8E8;
+  --accent-subtle: #FFF0F0;
+  --accent-muted: #FFE4E6;
+  --primary: #E11D48;
+  --primary-hover: #BE123C;
+  --text-primary: #1E1B1E;
+  --text-secondary: #645D62;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #1E1B1E;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbars matching clinical aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF8F8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FCE8E8;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFE4E6;
+}

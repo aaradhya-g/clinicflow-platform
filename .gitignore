@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing & Coverage
+coverage/
+.pytest_cache/
+test_*.db
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Python cache & virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.log
